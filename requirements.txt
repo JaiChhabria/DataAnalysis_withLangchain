@@ -7,6 +7,6 @@ SpeechRecognition
 pyaudio
 matplotlib
 seaborn
-sklearn
+scikit-learn
 scipy
 prophet
