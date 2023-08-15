@@ -1,0 +1,14 @@
+streamlit
+openai
+plotly
+pandas
+langchain
+SpeechRecognition
+pyaudio
+dotenv
+os
+matplotlib
+seaborn
+sklearn
+scipy
+prophet
