@@ -97,7 +97,7 @@ def main():
             st.write(query_response)
         
         # Set maximum rows displayed in the table
-        st.dataframe(df, height=100)  # Adjust the height as needed
+        #st.dataframe(df, height=100)  # Adjust the height as needed
     
         # Data Visualization: Chart Options
         st.subheader("Data Visualization: Chart Options")
