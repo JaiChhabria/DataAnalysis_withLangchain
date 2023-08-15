@@ -17,7 +17,7 @@ from prophet import Prophet  # Import for Forecasting
 
 # Function to query the AI agent
 def query_agent(df, query):
-    openai_api_key = st.secrect["OPENAI_API_KEY"]
+    openai_api_key = st.secret["OPENAI_API_KEY"]
     llm = OpenAI(openai_api_key=openai_api_key)
     agent = create_pandas_dataframe_agent(llm, df, verbose=True)
     return agent.run(query)
