@@ -11,6 +11,7 @@ from langchain.agents import create_pandas_dataframe_agent
 from langchain.llms import OpenAI
 from scipy.stats import ttest_ind, mannwhitneyu  # Import for Hypothesis Testing
 from prophet import Prophet  # Import for Forecasting
+from datetime import timedelta
 
 # Load environment variables
 #load_dotenv()
