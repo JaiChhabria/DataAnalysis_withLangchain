@@ -14,7 +14,7 @@ from prophet import Prophet  # Import for Forecasting
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
 
 # Function to query the AI agent
 def query_agent(df, query):
