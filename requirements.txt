@@ -10,3 +10,4 @@ scipy
 prophet
 datetime
 tabulate
+openpyxl
