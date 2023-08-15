@@ -3,8 +3,6 @@ openai
 plotly
 pandas
 langchain
-SpeechRecognition
-pyaudio
 matplotlib
 seaborn
 scikit-learn
