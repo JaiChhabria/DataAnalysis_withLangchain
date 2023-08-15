@@ -5,7 +5,6 @@ pandas
 langchain
 SpeechRecognition
 pyaudio
-os
 matplotlib
 seaborn
 sklearn
