@@ -16,7 +16,7 @@ import importlib
 import requirements
 
 # Installing required packages
-from req in requirements.requirements:
+for req in requirements.requirements:
     importlib.import_module(req)
 
 # Load environment variables
