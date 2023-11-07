@@ -7,7 +7,7 @@ import plotly.figure_factory as ff
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression, LinearRegression
 from sklearn.ensemble import RandomForestClassifier
-from langchain_experimental.agents import create_pandas_dataframe_agent
+from langchain.agents import DataFrameAgent
 from langchain.llms import OpenAI
 from scipy.stats import ttest_ind, mannwhitneyu  # Import for Hypothesis Testing
 from prophet import Prophet  # Import for Forecasting
