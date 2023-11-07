@@ -2,7 +2,7 @@ streamlit
 openai
 plotly
 pandas
-langchain
+langchain==0.0.331
 matplotlib
 seaborn
 scikit-learn
