@@ -71,7 +71,7 @@ def perform_forecasting(df, date_column, value_column, forecast_period):
     forecast = model.predict(future)
     return forecast
 def main():
-    st.title("Data Analysis with Streamlit")
+    st.title("Data Analysis Using LLM and Langchain")
     
     # Upload CSV or Excel data
     data = st.file_uploader("Upload CSV or Excel file", type=["csv", "xlsx"])
