@@ -106,7 +106,7 @@ def main():
         query_response = ""
         
         if query:
-            query_response = query_agent(df, query, completyion_model = "ChatCompletion")
+            query_response = query_agent(df, query, completion_model = "ChatCompletion")
             st.subheader("Query Response:")
             st.write(query_response)
         
