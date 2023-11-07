@@ -30,9 +30,9 @@ from datetime import timedelta
   #  agent = create_pandas_dataframe_agent(llm, df, verbose=True)
    # return agent.run(query)
 
-def query_agent(df, query):
+def query_agent(df, query, completion_model="ChatCompletion"):
     openai_api_key = st.secrets["OPENAI_API_KEY"]
-    llm = OpenAI(openai_api_key=openai_api_key, completion_model="ChatCompletion")
+    llm = OpenAI(openai_api_key=openai_api_key, completion_model=completion_model)
     agent = pd.DataFrame(llm,df,verbose-True)
     #agent = create_pandas_dataframe_agent(llm, df, verbose=True)
     return agent.run(query)
