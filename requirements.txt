@@ -11,3 +11,4 @@ prophet
 datetime
 tabulate
 openpyxl
+langchain_experimental
