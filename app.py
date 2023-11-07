@@ -23,10 +23,17 @@ from datetime import timedelta
 #load_dotenv()
 
 # Function to query the AI agent
+#def query_agent(df, query):
+   # openai_api_key = st.secrets["OPENAI_API_KEY"]
+   # llm = OpenAI(openai_api_key=openai_api_key)
+    #agent = pd.DataFrame(llm,df,verbose-True)
+  #  agent = create_pandas_dataframe_agent(llm, df, verbose=True)
+   # return agent.run(query)
+
 def query_agent(df, query):
     openai_api_key = st.secrets["OPENAI_API_KEY"]
-    llm = OpenAI(openai_api_key=openai_api_key)
-    #agent = pd.DataFrame(llm,df,verbose-True)
+    llm = OpenAI(openai_api_key=openai_api_key, completion_model="ChatCompletion")
+    agent = pd.DataFrame(llm,df,verbose-True)
     agent = create_pandas_dataframe_agent(llm, df, verbose=True)
     return agent.run(query)
 
